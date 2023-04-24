@@ -1,0 +1,29 @@
+POST http://localhost:3001/api/services
+Content-Type: application/json
+
+{
+    "name": "Matheus",
+    "email": "matheus@email",
+    "phone": "9999999",
+    "content": "Olá gostaria de entrar em contato"
+}
+
+###
+GET http://localhost:3001/api/services
+
+### 
+GET http://localhost:3001/api/services/64452c88c9e23095a0bb05fb
+
+###
+DELETE http://localhost:3001/api/services/64452bec1782f40293e88ce9
+
+###
+PUT http://localhost:3001/api/services/64452c88c9e23095a0bb05fb
+Content-Type: application/json
+
+{
+    "name": "Matheus",
+    "email": "matheus@email",
+    "phone": "9999999",
+    "content": "Olá gostaria de entrar em contato"
+}
